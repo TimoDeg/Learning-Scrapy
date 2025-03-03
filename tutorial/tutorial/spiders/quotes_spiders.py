@@ -5,10 +5,7 @@ import scrapy
 class QuotesSpider(scrapy.Spider):
     name = "quotes"
     # def start_requests(self):
-    start_urls = [
-        "https://quotes.toscrape.com/page/1/",
-        "https://quotes.toscrape.com/page/2/",
-    ]
+    start_urls = ["https://quotes.toscrape.com"]
 
         # optional: can be replaced with renaming urls into start_urls
         # for url in urls:
